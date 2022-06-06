@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div>
+            <p>How much was the bill?</p>
+            $ <input type="number" placeholder="Bill amount" id="bill">
+        </div>
+        <br>
+        <div>
+            <p>How was your service?</p>
+            <select id="service_quality">
+                <option value="1">Terrible</option>
+                <option value="2">Not Bad</option>
+                <option value="3">Good</option>
+                <option value="4">Great</option>
+                <option value="5">Amazing!</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <p>How many are you sharing the bill?</p>
+            <input type="number" placeholder="No. of persons" id="persons">
+        </div>
+        <br>
+        <div>
+            <button onclick="calculate()">CALCULATE TIP!</button>
+        </div>
+        <br>
+        <div id="result">
+            <h2 id="tip_amount"></h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

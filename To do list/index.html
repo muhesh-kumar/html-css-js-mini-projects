@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="heading">
+            <h1>TO DO LIST</h1>
+        </div>
+        <div>
+        <p>Enter text into the input field to add items to your to do list (max 5 items) </p>
+        <p>Click the item to mark it as complete</p>
+        <p>Click the 'X' to remove the item from your list</p>
+        </div>
+        <div>
+            <input type="text" placeholder="New item" id="item_name">
+            <button id="pencil"><i class="fa fa-pencil"></i></button>
+        </div>
+        <div id="Listcontainer">
+            <ul id="itemlist"></ul>
+        </div>
+    </div>
+</body>
+</html>
